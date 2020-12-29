@@ -1,6 +1,6 @@
 # window+r运行
-- 0.0<strong>打开dxdiag</strong>
-- 0.1msconfig
+- 0.0<strong>'打开dxdiag'</strong>
+- 0.1'msconfig'
 - 0.查看系统硬件信息：msinfo32
 - 1.打开计算机管理：compmgmt.msc  
 - 2.打开interneth属性：inetcpl.cpl  
