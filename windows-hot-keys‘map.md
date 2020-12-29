@@ -1,7 +1,7 @@
 # window+r运行
-<p>0.0打开dxdiag</p>
-<p>0.1msconfig</p>
-<p>0.查看系统硬件信息：msinfo32</p>
+- 0.0打开dxdiag
+- 0.1msconfig
+- 0.查看系统硬件信息：msinfo32
 - 1.打开计算机管理：compmgmt.msc  
 - 2.打开interneth属性：inetcpl.cpl  
 - 3.打开用户账户：netplwiz  
