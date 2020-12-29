@@ -1,5 +1,5 @@
 # window+r运行
-- 0.0<strong><u>打开dxdiag</u></strong>
+- 0.0<strong>打开dxdiag</strong>
 - 0.1msconfig
 - 0.查看系统硬件信息：msinfo32
 - 1.打开计算机管理：compmgmt.msc  
@@ -9,3 +9,4 @@
  
 # cmd
 1.查看系统信息：systeminfo  
+<span style="text-decoration:underline">所添加的需要加下划线的行内文字</span>
