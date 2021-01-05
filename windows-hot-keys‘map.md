@@ -5,8 +5,7 @@
     2. 打开interneth属性：inetcpl.cpl 
     3. 计算机管理compmgmt.msc
 - 1.打开计算机管理：compmgmt.msc  
-- 3.打开用户账户：netplwiz  
-- 4.打开设备管理器：devmgmt.cpl  
+- 3.打开用户账户：netplwiz
 ----------------------------------------------
 # cmd
 - [x] 查看系统信息：systeminfo 
