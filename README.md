@@ -11,3 +11,13 @@ step3:使用taskkill /pid pid关掉该程序。
 
 ## 查找文件位置
 dir /s/b c:\ |findstr /I "python.exe"
+
+# linux脚本
+## 1、先查看进程pid
+ps -ef | grep 进程名
+
+## 2、通过pid查看占用端口
+netstat -nap | grep 进程pid
+
+## 杀掉进程
+kill -9 <PID>
