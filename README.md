@@ -1,23 +1,21 @@
-# -
-linux及windows控制台脚本语言
+# linux及windows控制台脚本语言
 
 
 
-# cmd脚本
-## 目标：杀掉占用某个端口的进程
+# windows-cmd脚本
+#### 目标：杀掉占用某个端口的进程
 step1:使用netstat -abno|findstr "端口号"，找到对应的pid。<br/>
 step2:根据pid使用tasklist | findstr "pid",找到正确的进程的名字再次确认该进程占用了端口。<br/>
 step3:使用taskkill /pid pid关掉该程序。
 
-## 查找文件位置
+#### 查找叫“python.exe”的文件位置
 dir /s/b c:\ |findstr /I "python.exe"
 
 # linux脚本
-## 1、先查看进程pid
-ps -ef | grep 进程名
+#### 杀进程
+1. 先查看进程pid: ps -ef | grep 进程名
+2. 通过pid查看占用端口: netstat -nap | grep 进程pid
+3. 杀掉进程: kill -9 <PID>
 
-## 2、通过pid查看占用端口
-netstat -nap | grep 进程pid
-
-## 杀掉进程
-kill -9 <PID>
+#### 查找文件中包含njz的文件
+find . -type "file" -name "*.*" | xargs grep -i "njz"
