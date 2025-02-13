@@ -6,6 +6,7 @@
     3. 计算机管理compmgmt.msc
 - 1.打开计算机管理：compmgmt.msc  
 - 3.打开用户账户：netplwiz
+-  打开 DirectX 诊断工具：dxdiag
 ----------------------------------------------
 # cmd
 - [x] 查看系统信息：systeminfo 
